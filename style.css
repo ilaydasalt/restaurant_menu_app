@@ -1,0 +1,85 @@
+/* Genel sayfa stilini özelleştir */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Başlık içeriği */
+header h1 {
+    margin: 0;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* Menü stilini özelleştir */
+nav {
+    background-color: #444;
+    color: white;
+}
+
+/* Menü linkleri */
+nav ul { /*menü öğelerinin bulunduğu liste (unordered list) öğesini hedefler.*/
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    list-style-type: none;
+}
+
+nav ul li { /*menü öğelerini (liste öğelerini) hedefler.*/
+    margin: 0 20px;
+    list-style: none;
+}
+
+nav ul li a { /*menü öğelerinin içindeki bağlantıları (linkleri) hedefler. */
+    text-decoration: none; /*bağlantıların altını çizmeyi kaldırır.*/
+    color: white;
+    font-weight: bold;
+    list-style: none;
+    
+}
+
+/* Ana içerik stilini özelleştir */
+main {
+    padding: 20px;
+}
+
+/* Kategori başlıkları */
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    font-family: Avantgarde,TeX Gyre Adventor,URW Gothic L, sans-serif;
+}
+
+p {
+    font-style: italic;
+    font-size: 10px;
+}
+
+.price {
+float: right;/* Öğeyi sağa kaydırır */
+    margin-right: 10px;/* Sağ kenara 10 piksel boşluk ekler */
+    font-size: 12px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+        bottom: 0;
+        width: 100%;
+}
